@@ -14,11 +14,11 @@ const createMenuPage = () => {
     menuList.appendChild(menuItem1)
 
     const menuItem2 = document.createElement("li");
-    menuItem1.textContent = "raw scallops"
+    menuItem2.textContent = "raw scallops"
     menuList.appendChild(menuItem2)
 
     const menuItem3 = document.createElement("li");
-    menuItem1.textContent = "idiot sandwich"
+    menuItem3.textContent = "idiot sandwich"
     menuList.appendChild(menuItem3)
 
     pageContent.appendChild(menuList)
@@ -26,4 +26,4 @@ const createMenuPage = () => {
     content.appendChild(pageContent);
 }
 
-export default createMenuPage();
+export default createMenuPage;

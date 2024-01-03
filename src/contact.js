@@ -27,4 +27,4 @@ const createContactPage = () => {
     content.appendChild(pageContent);
 }
 
-export default createContactPage();
+export default createContactPage;

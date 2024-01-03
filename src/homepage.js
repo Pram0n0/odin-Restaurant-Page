@@ -20,4 +20,4 @@ const createHomePage = () => {
     content.appendChild(pageContent);
 }
 
-export default createHomePage();
+export default createHomePage;

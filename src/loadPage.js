@@ -1,9 +1,9 @@
-import createHomePage from "./homepage"
 import createTabs from "./tabs"
+import createHomePage from "./homepage"
 
 function initialLoad() {
-    createHomePage();
     createTabs();
+    createHomePage();
 }
 
 export default initialLoad();
